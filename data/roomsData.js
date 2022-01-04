@@ -17,6 +17,22 @@ export default [
     ]
   },
   {
+    id: 'afcs',
+    type: 's4',
+    short: {
+      content: '人家都說，加勒比海是海盜橫行的海域，也許可以讓這趟旅行，帶點刺激的冒險行程',
+      img: '~/assets/rooms_block/b4-caribbean-sea.jpg'
+    },
+    name: '星空號加勒比海四人房',
+    description: '加勒比海',
+    imgOptions: [
+      '~/assets/rooms/afcs/B001-cover.jpg',
+      '~/assets/rooms/afcs/B002.jpg',
+      '~/assets/rooms/afcs/B003.jpg',
+      '~/assets/rooms/afcs/B004.jpg'
+    ]
+  },
+  {
     id: 'atis',
     type: 's2',
     short: {
@@ -66,6 +82,76 @@ export default [
       '~/assets/rooms/atpo/E004.jpg',
       '~/assets/rooms/atpo/E005.jpg',
       '~/assets/rooms/atpo/E006.jpg'
+    ]
+  },
+  {
+    id: 'atio',
+    type: 's2',
+    short: {
+      content: '遠眺窗外無邊際的大海，也許吧！這是一趟航向夢想與想像的旅行',
+      img: '~/assets/rooms_block/a2-indian-ocean.jpg'
+    },
+    name: '星空號印度洋雙人房',
+    description: '印度洋',
+    imgOptions: [
+      '~/assets/rooms/atio/G001-cover.jpg',
+      '~/assets/rooms/atio/G002.jpg',
+      '~/assets/rooms/atio/G003.jpg',
+      '~/assets/rooms/atio/G004.jpg',
+      '~/assets/rooms/atio/G005.jpg'
+    ]
+  },
+  {
+    id: 'ata',
+    type: 's2',
+    short: {
+      content: '海洋，總是有一個浪漫的愛情故事，也許是電影裡的鐵達尼，亦或是童話裡的美人魚？',
+      img: '~/assets/rooms_block/a2-atlantic.jpg'
+    },
+    name: '星空號大西洋雙人房',
+    description: '大西洋',
+    imgOptions: [
+      '~/assets/rooms/ata/F001-cover.jpg',
+      '~/assets/rooms/ata/F002.jpg',
+      '~/assets/rooms/ata/F003.jpg',
+      '~/assets/rooms/ata/F004.jpg',
+      '~/assets/rooms/ata/F005.jpg',
+      '~/assets/rooms/ata/F006.jpg'
+    ]
+  },
+  {
+    id: 'btsw',
+    type: 'r2',
+    short: {
+      content: '湛藍的天空輝映著柔細白沙，點綴著閃閃發光的貝殼，讓人徜祥於大海中無限放鬆!',
+      img: '~/assets/rooms_block/b2-shell-white.jpg'
+    },
+    name: '彩虹堡貝殼白雙人房',
+    description: '貝殼白',
+    imgOptions: [
+      '~/assets/rooms/btsw/I001-cover.jpg',
+      '~/assets/rooms/btsw/I002.jpg',
+      '~/assets/rooms/btsw/I003.jpg',
+      '~/assets/rooms/btsw/I004.jpg',
+      '~/assets/rooms/btsw/I005.jpg',
+      '~/assets/rooms/btsw/I006.jpg'
+    ]
+  },
+  {
+    id: 'btsb',
+    type: 'r2',
+    short: {
+      content: '你多久沒仰望天空了?彩虹、星星、月亮、太陽...還有那一片片像棉花糖的白雲',
+      img: '~/assets/rooms_block/b2-sky-blue.jpg'
+    },
+    name: '彩虹堡天空藍雙人房',
+    description: '天空藍',
+    imgOptions: [
+      '~/assets/rooms/btsb/H001-cover.jpg',
+      '~/assets/rooms/btsb/H002.jpg',
+      '~/assets/rooms/btsb/H003.jpg',
+      '~/assets/rooms/btsb/H004.jpg',
+      '~/assets/rooms/btsb/H005.jpg'
     ]
   },
   {
@@ -156,75 +242,7 @@ export default [
       '~/assets/rooms/bfcp/Q006.jpg'
     ]
   },
-  // {
-  //   id: 'beikebai',
-  //   type: '',
-  //   short: {
-  //     content: '',
-  //     img: '~/assets/rooms_block/beikebai.jpg'
-  //   },
-  //   name: '',
-  //   description: '貝殼白',
-  //   imgOptions: [
-  //     '~/assets/rooms/beikebai/I001-cover.jpg',
-  //     '~/assets/rooms/beikebai/I002.jpg',
-  //     '~/assets/rooms/beikebai/I003.jpg',
-  //     '~/assets/rooms/beikebai/I004.jpg',
-  //     '~/assets/rooms/beikebai/I005.jpg',
-  //     '~/assets/rooms/beikebai/I006.jpg'
-  //   ]
-  // },
-  {
-    id: 'atio',
-    type: 's2',
-    short: {
-      content: '遠眺窗外無邊際的大海，也許吧！這是一趟航向夢想與想像的旅行',
-      img: '~/assets/rooms_block/a2-indian-ocean.jpg'
-    },
-    name: '星空號印度洋雙人房',
-    description: '印度洋',
-    imgOptions: [
-      '~/assets/rooms/atio/G001-cover.jpg',
-      '~/assets/rooms/atio/G002.jpg',
-      '~/assets/rooms/atio/G003.jpg',
-      '~/assets/rooms/atio/G004.jpg',
-      '~/assets/rooms/atio/G005.jpg'
-    ]
-  },
-  {
-    id: 'ata',
-    type: 's2',
-    short: {
-      content: '海洋，總是有一個浪漫的愛情故事，也許是電影裡的鐵達尼，亦或是童話裡的美人魚？',
-      img: '~/assets/rooms_block/a2-atlantic.jpg'
-    },
-    name: '星空號大西洋雙人房',
-    description: '大西洋',
-    imgOptions: [
-      '~/assets/rooms/ata/F001-cover.jpg',
-      '~/assets/rooms/ata/F002.jpg',
-      '~/assets/rooms/ata/F003.jpg',
-      '~/assets/rooms/ata/F004.jpg',
-      '~/assets/rooms/ata/F005.jpg',
-      '~/assets/rooms/ata/F006.jpg'
-    ]
-  },
-  {
-    id: 'afcs',
-    type: 's4',
-    short: {
-      content: '人家都說，加勒比海是海盜橫行的海域，也許可以讓這趟旅行，帶點刺激的冒險行程',
-      img: '~/assets/rooms_block/b4-caribbean-sea.jpg'
-    },
-    name: '星空號加勒比海四人房',
-    description: '加勒比海',
-    imgOptions: [
-      '~/assets/rooms/afcs/B001-cover.jpg',
-      '~/assets/rooms/afcs/B002.jpg',
-      '~/assets/rooms/afcs/B003.jpg',
-      '~/assets/rooms/afcs/B004.jpg'
-    ]
-  },
+
   {
     id: 'bfcr',
     type: 'r4',
@@ -243,38 +261,21 @@ export default [
       '~/assets/rooms/bfcr/J006.jpg'
     ]
   },
-  // {
-  //   id: 'yujinhuang',
-  //   type: '',
-  //   short: {
-  //     content: '',
-  //     img: '~/assets/rooms_block/yujinhuang.jpg'
-  //   },
-  //   name: '',
-  //   description: '郁金黃',
-  //   imgOptions: [
-  //     '~/assets/rooms/yujinhuang/M001-cover.jpg',
-  //     '~/assets/rooms/yujinhuang/M002.jpg',
-  //     '~/assets/rooms/yujinhuang/M003.jpg',
-  //     '~/assets/rooms/yujinhuang/M004.jpg',
-  //     '~/assets/rooms/yujinhuang/M005.jpg'
-  //   ]
-  // },
   {
-    id: 'btsb',
-    type: 'r2',
+    id: 'bfty',
+    type: 'r4',
     short: {
-      content: '你多久沒仰望天空了?彩虹、星星、月亮、太陽...還有那一片片像棉花糖的白雲',
-      img: '~/assets/rooms_block/b2-sky-blue.jpg'
+      content: '心中暖暖的顏色，充滿溫馨的色彩，美好愉快的心情在我們之間浪漫散發，旅行去吧!',
+      img: '~/assets/rooms_block/b4-tulip-yellow.jpg'
     },
-    name: '彩虹堡天空藍雙人房',
-    description: '天空藍',
+    name: '彩虹堡郁金黃四人房',
+    description: '郁金黃',
     imgOptions: [
-      '~/assets/rooms/btsb/H001-cover.jpg',
-      '~/assets/rooms/btsb/H002.jpg',
-      '~/assets/rooms/btsb/H003.jpg',
-      '~/assets/rooms/btsb/H004.jpg',
-      '~/assets/rooms/btsb/H005.jpg'
+      '~/assets/rooms/bfty/M001-cover.jpg',
+      '~/assets/rooms/bfty/M002.jpg',
+      '~/assets/rooms/bfty/M003.jpg',
+      '~/assets/rooms/bfty/M004.jpg',
+      '~/assets/rooms/bfty/M005.jpg'
     ]
   }
 ]

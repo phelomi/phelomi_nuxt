@@ -4,5 +4,5 @@ import banner003 from '@/assets/banner/banner003.jpg'
 import banner004 from '@/assets/banner/banner004.jpg'
 
 export default [
-  banner002, banner001, banner003, banner004
+  banner004, banner003, banner002, banner001
 ]
